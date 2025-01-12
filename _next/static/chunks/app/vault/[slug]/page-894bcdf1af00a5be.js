@@ -31,7 +31,7 @@
           i = (0, f.Z)("Vault"),
           o = (0, f.Z)("VaultBorrowRate"),
           d = (0, f.Z)("VaultFactory"),
-          c = (0, f.Z)("BEYONDStaking"),
+          c = (0, f.Z)("ALTARRAStaking"),
           v = { abi: null == i ? void 0 : i.abi, address: e, chainId: s },
           p = {
             abi: null == o ? void 0 : o.abi,
@@ -649,14 +649,14 @@
                 className: "w-full",
                 title: "Collateral",
                 description:
-                  "Stake $BEYOND to protect the protocol via automated liquidations",
+                  "Stake $ALTA to protect the protocol via automated liquidations",
                 children: (0, r.jsx)(W, { vault: t }),
               }),
               (0, r.jsx)(y.Z, {
                 className: "w-full",
                 title: "Borrow / Repay",
                 description:
-                  "Stake $BEYOND to protect the protocol via automated liquidations and earn rewards in BEYOND",
+                  "Stake $ALTA to protect the protocol via automated liquidations and earn rewards in ALTARRA",
                 children: (0, r.jsx)(V, { vault: t }),
               }),
             ],

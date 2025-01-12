@@ -328,7 +328,7 @@
                           (0, a.jsx)(B._, {
                             htmlFor: "borrowAmount",
                             className: "text-muted-foreground",
-                            children: "Borrow BEYOND",
+                            children: "Borrow ALTARRA",
                           }),
                           (0, a.jsxs)("div", {
                             className:
@@ -385,7 +385,7 @@
                                       children: [
                                         (0, a.jsx)(Z.Z, { children: eh }),
                                         " ",
-                                        "BEYOND",
+                                        "ALTARRA",
                                       ],
                                     }),
                                     (0, a.jsx)("div", {
@@ -410,7 +410,7 @@
                                 children: [
                                   (0, a.jsx)(Z.Z, { children: ep }),
                                   " ",
-                                  "BEYOND",
+                                  "ALTARRA",
                                 ],
                               }),
                             ],

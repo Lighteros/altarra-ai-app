@@ -158,7 +158,7 @@
       }
       function R(e) {
         let { className: t } = e,
-          s = (0, f.Z)("BEYONDStaking"),
+          s = (0, f.Z)("ALTARRAStaking"),
           i = (0, b.Z)(),
           l = (0, a.useRef)(null),
           x = (0, a.useRef)(null),
@@ -168,7 +168,7 @@
             writeContract: j,
             isPending: y,
           } = (0, u.useWriteContract)(),
-          N = (0, f.Z)("BEYOND"),
+          N = (0, f.Z)("ALTARRA"),
           { stake: R } = g(),
           [D, U] = (0, a.useState)("Confirm"),
           [q, W] = (0, a.useState)(!1),
@@ -230,12 +230,12 @@
                       "Stake ",
                       (0, n.jsx)("span", {
                         className: "text-taolime",
-                        children: "BEYOND",
+                        children: "ALTARRA",
                       }),
                       " and start collecting",
                       (0, n.jsx)("span", {
                         className: "text-taolime",
-                        children: " BEYOND ",
+                        children: " ALTARRA ",
                       }),
                       " rewards, accrued from the protocol fees and distributed to the stakers.",
                     ],
@@ -292,7 +292,7 @@
                                     ((x.current.value = ""), L(!0)));
                             },
                             children: [
-                              (0, n.jsx)(E.Z, { symbol: "BEYOND" }),
+                              (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
                               (0, n.jsxs)("div", {
                                 className:
                                   "flex flex-row items-center gap-1 text-base text-[#BAF7E9]",
@@ -361,7 +361,7 @@
                                     ((l.current.value = ""), W(!0)));
                             },
                             children: [
-                              (0, n.jsx)(E.Z, { symbol: "BEYOND" }),
+                              (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
                               (0, n.jsxs)("div", {
                                 className:
                                   "flex flex-row items-center gap-1 text-base text-[#BAF7E9]",
@@ -389,7 +389,7 @@
                       children: [
                         (0, n.jsx)(A.Z, {
                           icon: (0, n.jsx)(E.Z, {
-                            symbol: "BEYOND",
+                            symbol: "ALTARRA",
                             invert: !0,
                           }),
                           isLoading: !0 === y,
@@ -457,7 +457,7 @@
       }
       function D() {
         var e;
-        let t = (0, f.Z)("BEYONDStaking"),
+        let t = (0, f.Z)("ALTARRAStaking"),
           {
             data: s,
             writeContract: i,
@@ -504,18 +504,18 @@
                   (0, n.jsx)(l.default, {
                     href: "/staking/tao",
                     className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                    children: "Stake BEYOND",
+                    children: "Stake ALTARRA",
                   }),
                   (0, n.jsx)(l.default, {
                     href: "/staking/tbank",
                     className:
                       "rounded-lg bg-white bg-opacity-[10%] px-2 py-[5px] text-[#BAF7E9] opacity-80",
-                    children: "Stake BEYOND",
+                    children: "Stake ALTARRA",
                   }),
                   (0, n.jsx)(l.default, {
                     href: "/staking/wtao",
                     className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                    children: "Stake BEYOND",
+                    children: "Stake ALTARRA",
                   }),
                 ],
               }),
@@ -572,7 +572,7 @@
                       className:
                         "flex flex-wrap items-center justify-between space-x-4 pt-4 text-base",
                       children: [
-                        (0, n.jsx)("div", { children: "Total BEYOND Staked" }),
+                        (0, n.jsx)("div", { children: "Total ALTARRA Staked" }),
                         (0, n.jsxs)("div", {
                           className: "flex space-x-4",
                           children: [
@@ -590,7 +590,7 @@
                               ],
                             }),
                             (0, n.jsx)("div", {
-                              children: (0, n.jsx)(E.Z, { symbol: "BEYOND" }),
+                              children: (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
                             }),
                           ],
                         }),
@@ -606,7 +606,7 @@
                             children: [
                               1 === F
                                 ? (0, n.jsx)("div", {
-                                    children: "BEYOND Rewards Paid",
+                                    children: "ALTARRA Rewards Paid",
                                   })
                                 : (0, n.jsx)("div", {
                                     children: "taoUSD Rewards Paid",
@@ -644,7 +644,7 @@
                                       }),
                                   (0, n.jsx)("div", {
                                     children: (0, n.jsx)(E.Z, {
-                                      symbol: "BEYOND",
+                                      symbol: "ALTARRA",
                                     }),
                                   }),
                                 ],
@@ -668,7 +668,7 @@
                           children: [
                             (0, n.jsx)("div", {
                               className: "text-muted-foreground",
-                              children: "Staked BEYOND:",
+                              children: "Staked ALTARRA:",
                             }),
                             (0, n.jsx)("div", {
                               children: (0, n.jsx)(w.Z, {
@@ -676,7 +676,7 @@
                               }),
                             }),
                             (0, n.jsx)("div", {
-                              children: (0, n.jsx)(E.Z, { symbol: "BEYOND" }),
+                              children: (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
                             }),
                           ],
                         }),
@@ -686,7 +686,7 @@
                             (0, n.jsxs)("div", {
                               className: "text-muted-foreground",
                               children: [
-                                1 === F ? "BEYOND" : "BEYOND",
+                                1 === F ? "ALTARRA" : "ALTARRA",
                                 " Rewards:",
                                 " ",
                               ],
@@ -707,7 +707,7 @@
                                       height: 25,
                                       className: "invert",
                                     })
-                                  : (0, n.jsx)(E.Z, { symbol: "BEYOND" }),
+                                  : (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
                             }),
                           ],
                         }),
@@ -753,7 +753,7 @@
                                               height: 20,
                                             })
                                           : (0, n.jsx)(E.Z, {
-                                              symbol: "BEYOND",
+                                              symbol: "ALTARRA",
                                               invert: !0,
                                             }),
                                     }),
@@ -1092,12 +1092,12 @@
           error: t,
           isLoading: s,
         } = (0, n.a)({
-          queryKey: ["BeyondPrice"],
+          queryKey: ["AltarraPrice"],
           queryFn: async () => {
             let e = await fetch(
               "https://api.dexscreener.com/latest/dex/pairs/ethereum/0x0f88a9D642FA9283338e1eC4496E7dC72714831a"
             );
-            if (!e.ok) throw Error("Failed to fetch BEYONDprice");
+            if (!e.ok) throw Error("Failed to fetch ALTARRAPrice");
             let t = await e.json();
             return console.log("data", t), t.pairs[0].priceUsd;
           },
@@ -1106,13 +1106,13 @@
           refetchOnWindowFocus: !1,
           retry: 3,
         });
-        if (!s) return t && console.error("Error fetching BEYONDprice:", t), e;
+        if (!s) return t && console.error("Error fetching ALTARRAPrice:", t), e;
       };
     },
     54490: function (e, t) {
       "use strict";
       t.Z = {
-        src: "/silver.png",
+        src: "/gold.png",
         height: 24,
         width: 24,
         blurWidth: 0,

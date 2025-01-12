@@ -237,7 +237,7 @@
                                 className:
                                   "flex items-center space-x-2 text-sm font-semibold",
                                 children: (0, n.jsx)("div", {
-                                  children: "Stake BEYOND",
+                                  children: "Stake ALTARRA",
                                 }),
                               }),
                             }),
@@ -275,7 +275,7 @@
                                   "Bridge your",
                                   (0, n.jsx)("span", {
                                     className: "text-taolime",
-                                    children: " BEYOND ",
+                                    children: " ALTARRA ",
                                   }),
                                   "between ",
                                   (0, n.jsx)("span", {
@@ -307,7 +307,7 @@
                                       children: (0, n.jsx)(c.Z, {}),
                                     }),
                                     (0, n.jsx)("div", {
-                                      children: "Bridge BEYOND",
+                                      children: "Bridge ALTARRA",
                                     }),
                                   ],
                                 }),
@@ -345,7 +345,7 @@
                                   " ",
                                   (0, n.jsx)("span", {
                                     className: "text-taolime",
-                                    children: "BEYOND",
+                                    children: "ALTARRA",
                                   }),
                                   "?",
                                 ],
@@ -357,7 +357,7 @@
                                   " ",
                                   (0, n.jsx)("span", {
                                     className: "text-taolime",
-                                    children: "BEYOND",
+                                    children: "ALTARRA",
                                   }),
                                   "? - We got you covered",
                                 ],
@@ -378,12 +378,12 @@
                                   children: [
                                     (0, n.jsx)("div", {
                                       children: (0, n.jsx)(F.Z, {
-                                        symbol: "BEYOND",
+                                        symbol: "ALTARRA",
                                         invert: !0,
                                       }),
                                     }),
                                     (0, n.jsx)("div", {
-                                      children: "Buy BEYOND",
+                                      children: "Buy ALTARRA",
                                     }),
                                   ],
                                 }),
@@ -612,7 +612,7 @@
                                   children: [
                                     (0, n.jsx)("p", {
                                       className: "text-lg",
-                                      children: "$BEYOND",
+                                      children: "$ALTA",
                                     }),
                                     (0, n.jsx)("div", {
                                       className:
@@ -671,7 +671,7 @@
                                                             }
                                                           ),
                                                           " ",
-                                                          "BEYOND",
+                                                          "ALTARRA",
                                                         ],
                                                       })
                                                     : "",
@@ -715,7 +715,7 @@
                                   children: [
                                     (0, n.jsx)("p", {
                                       className: "text-lg",
-                                      children: "$BEYOND Rewards",
+                                      children: "$ALTA Rewards",
                                     }),
                                     (0, n.jsx)("div", {
                                       className:
@@ -767,7 +767,7 @@
                                                           "text-sm opacity-70",
                                                         children: [
                                                           a.totalWTAORewards,
-                                                          " BEYOND",
+                                                          " ALTARRA",
                                                         ],
                                                       })
                                                     : "",
@@ -779,226 +779,6 @@
                                               }),
                                       }),
                                     ],
-                                  }),
-                            }),
-                          ],
-                        }),
-                        (0, n.jsx)(N.Z, { className: "mt-4" }),
-                        (0, n.jsxs)("div", {
-                          className: "grid grid-cols-2 justify-between gap-4 ",
-                          children: [
-                            (0, n.jsxs)("div", {
-                              className: "flex items-center space-x-2",
-                              children: [
-                                (0, n.jsxs)("div", {
-                                  children: [
-                                    (0, n.jsx)("div", {
-                                      className:
-                                        "glow-circle absolute z-[100] h-16 w-16 translate-x-[-0.75rem] translate-y-[-0.95rem] opacity-30",
-                                    }),
-                                    (0, n.jsx)(F.Z, {
-                                      width: 40,
-                                      height: 40,
-                                      symbol: "BEYOND",
-                                    }),
-                                  ],
-                                }),
-                                (0, n.jsxs)("div", {
-                                  className:
-                                    "flex flex-col items-start py-1 pl-2 text-[#BAF7E9]",
-                                  children: [
-                                    (0, n.jsx)("p", {
-                                      className: "text-lg",
-                                      children: "$BEYOND",
-                                    }),
-                                    (0, n.jsxs)("div", {
-                                      className:
-                                        "flex items-center justify-start space-x-2 text-xs",
-                                      children: [
-                                        (0, n.jsx)("div", {
-                                          className: "text-lg font-semibold",
-                                          children: (0, n.jsx)(T.Z, {
-                                            children:
-                                              null == e ? void 0 : e.TUSD,
-                                          }),
-                                        }),
-                                        (0, n.jsxs)("div", {
-                                          className:
-                                            Q > 0
-                                              ? "rounded-md bg-green-900 bg-opacity-50 px-1 py-1 text-green-500"
-                                              : "rounded-md bg-red-900 bg-opacity-50 px-1 py-1 text-red-500",
-                                          children: [Q.toFixed(2), "%"],
-                                        }),
-                                      ],
-                                    }),
-                                  ],
-                                }),
-                              ],
-                            }),
-                            (0, n.jsx)("div", {
-                              children: t
-                                ? (0, n.jsx)("div", {
-                                    className: "animate-pulse",
-                                    children: "Loading...",
-                                  })
-                                : (0, n.jsxs)("div", {
-                                    className: "pt-1 text-lg",
-                                    children: [
-                                      (0, n.jsx)("div", {
-                                        className:
-                                          "font-semibold text-muted-foreground",
-                                        children: "Market Cap",
-                                      }),
-                                      (0, n.jsx)("div", {
-                                        children:
-                                          a && C && !R
-                                            ? (0, n.jsx)(k.Z, {
-                                                children: (0, n.jsx)(T.Z, {
-                                                  children:
-                                                    parseFloat(
-                                                      a.circulatingTUSD
-                                                    ) +
-                                                    parseFloat(
-                                                      C.circulatingTUSD
-                                                    ),
-                                                }),
-                                              })
-                                            : (0, n.jsx)(k.Z, {
-                                                children: (0, n.jsx)(T.Z, {
-                                                  children: "119376.63",
-                                                }),
-                                              }),
-                                      }),
-                                    ],
-                                  }),
-                            }),
-                          ],
-                        }),
-                        (0, n.jsx)(N.Z, { className: "mt-2" }),
-                        (0, n.jsxs)("div", {
-                          className:
-                            "grid grid-cols-2 justify-between gap-4 pb-2 pt-1",
-                          children: [
-                            (0, n.jsxs)("div", {
-                              className: "flex items-center space-x-2",
-                              children: [
-                                (0, n.jsxs)("div", {
-                                  children: [
-                                    (0, n.jsx)("div", {
-                                      className:
-                                        "glow-circle absolute z-[100] h-16 w-16 translate-x-[-0.75rem] translate-y-[-0.95rem] opacity-30",
-                                    }),
-                                    (0, n.jsx)(F.Z, {
-                                      width: 38,
-                                      height: 38,
-                                      symbol: "BEYOND",
-                                    }),
-                                  ],
-                                }),
-                                (0, n.jsxs)("div", {
-                                  className:
-                                    "flex flex-col items-center py-1 pl-2 text-[#BAF7E9]",
-                                  children: [
-                                    (0, n.jsx)("p", {
-                                      className: "text-lg",
-                                      children: "$BEYOND",
-                                    }),
-                                    (0, n.jsx)("div", {
-                                      className:
-                                        "flex w-full items-center justify-start space-x-2 pl-1 text-xs",
-                                      children: (0, n.jsx)("div", {
-                                        className: "text-lg font-semibold",
-                                        children: (0, n.jsx)(T.Z, {
-                                          children: H,
-                                        }),
-                                      }),
-                                    }),
-                                  ],
-                                }),
-                              ],
-                            }),
-                            (0, n.jsx)("div", {
-                              children: t
-                                ? (0, n.jsx)("div", {
-                                    className: "animate-pulse",
-                                    children: "Loading...",
-                                  })
-                                : (0, n.jsx)("div", {
-                                    className: "text-lg",
-                                    children: (0, n.jsxs)("div", {
-                                      children: [
-                                        (0, n.jsx)("div", {
-                                          className:
-                                            "pt-1 font-semibold text-muted-foreground",
-                                          children: "Total BEYOND Staked",
-                                        }),
-                                        (0, n.jsx)("div", {
-                                          children:
-                                            (!t || !D) && W && e
-                                              ? (0, n.jsxs)("div", {
-                                                  className:
-                                                    "flex flex-col items-start justify-start pb-2",
-                                                  children: [
-                                                    (0, n.jsx)(k.Z, {
-                                                      children: (0, n.jsx)(
-                                                        T.Z,
-                                                        {
-                                                          children:
-                                                            parseFloat(
-                                                              W.totalTBANKStakedHuman
-                                                            ) * H || 473504.344,
-                                                        }
-                                                      ),
-                                                    }),
-                                                    (0, n.jsxs)("span", {
-                                                      className:
-                                                        "text-sm opacity-70",
-                                                      children: [
-                                                        (isNaN(
-                                                          parseFloat(
-                                                            W.totalTBANKStakedHuman
-                                                          )
-                                                        )
-                                                          ? 2756538
-                                                          : parseFloat(
-                                                              W.totalTBANKStakedHuman
-                                                            )
-                                                        ).toLocaleString(
-                                                          "en-US",
-                                                          {
-                                                            maximumFractionDigits: 18,
-                                                          }
-                                                        ),
-                                                        " ",
-                                                        "BEYOND",
-                                                      ],
-                                                    }),
-                                                  ],
-                                                })
-                                              : (0, n.jsxs)("div", {
-                                                  className:
-                                                    "flex flex-col items-start justify-start pb-2",
-                                                  children: [
-                                                    (0, n.jsx)(k.Z, {
-                                                      children: (0, n.jsx)(
-                                                        T.Z,
-                                                        {
-                                                          children:
-                                                            "728504.344",
-                                                        }
-                                                      ),
-                                                    }),
-                                                    (0, n.jsx)("span", {
-                                                      className:
-                                                        "text-sm opacity-70",
-                                                      children:
-                                                        "3,606,538.344 BEYOND",
-                                                    }),
-                                                  ],
-                                                }),
-                                        }),
-                                      ],
-                                    }),
                                   }),
                             }),
                           ],
@@ -1544,7 +1324,7 @@
     54490: function (e, t) {
       "use strict";
       t.Z = {
-        src: "/silver.png",
+        src: "/gold.png",
         height: 24,
         width: 24,
         blurWidth: 0,

@@ -275,7 +275,7 @@
         { title: "Staking", href: "/staking/wtao", icon: (0, n.jsx)(P.Z, {}) },
         {
           title: "Docs",
-          href: "https://alexeys-organization-9.gitbook.io/beyond-ai",
+          href: "https://alexeys-organization-9.gitbook.io/altarra-ai",
           target: "_blank",
           icon: (0, n.jsx)(R.Z, {}),
         },
@@ -355,7 +355,7 @@
                       href: "/",
                       children: (0, n.jsx)(i.default, {
                         src: o,
-                        alt: "Beyond",
+                        alt: "Altarra",
                         width: 128,
                       }),
                     }),
@@ -435,7 +435,7 @@
                         href: "/",
                         children: (0, n.jsx)(i.default, {
                           src: o,
-                          alt: "Beyond",
+                          alt: "Altarra",
                           width: 120,
                           height: 58,
                         }),

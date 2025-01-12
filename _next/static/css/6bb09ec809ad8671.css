@@ -2368,7 +2368,7 @@ input.tab:checked + .tab-content {
 .border-\[\#3FEAC1\],
 .border-\[\#3feac1\] {
   --tw-border-opacity: 1;
-  border-color: rgb(63 234 93 / var(--tw-border-opacity));
+  border-color: rgb(63 234 193 / var(--tw-border-opacity));
 }
 .border-\[\#BAF7E9\] {
   --tw-border-opacity: 1;
@@ -2422,7 +2422,7 @@ input.tab:checked + .tab-content {
 }
 .bg-\[\#3FEAC1\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(63 234 93 / var(--tw-bg-opacity));
+  background-color: rgb(63 234 193 / var(--tw-bg-opacity));
 }
 .bg-\[\#BAF7E9\] {
   --tw-bg-opacity: 1;
@@ -2470,7 +2470,7 @@ input.tab:checked + .tab-content {
 }
 .bg-taolime {
   --tw-bg-opacity: 1;
-  background-color: rgb(63 234 93 / var(--tw-bg-opacity));
+  background-color: rgb(63 234 193 / var(--tw-bg-opacity));
 }
 .bg-transparent {
   background-color: transparent;
@@ -2837,7 +2837,7 @@ input.tab:checked + .tab-content {
 }
 .text-\[\#3feac1\] {
   --tw-text-opacity: 1;
-  color: rgb(63 234 93 / var(--tw-text-opacity));
+  color: rgb(63 234 193 / var(--tw-text-opacity));
 }
 .text-\[\#BAF7E9\] {
   --tw-text-opacity: 1;
@@ -2921,7 +2921,7 @@ input.tab:checked + .tab-content {
 }
 .text-taolime {
   --tw-text-opacity: 1;
-  color: rgb(63 234 93 / var(--tw-text-opacity));
+  color: rgb(63 234 193 / var(--tw-text-opacity));
 }
 .text-transparent {
   color: transparent;
@@ -3264,7 +3264,7 @@ button[data-state="active"] img {
 }
 .hover\:text-taolime:hover {
   --tw-text-opacity: 1;
-  color: rgb(63 234 93 / var(--tw-text-opacity));
+  color: rgb(63 234 193 / var(--tw-text-opacity));
 }
 .hover\:underline:hover {
   text-decoration-line: underline;

@@ -920,7 +920,7 @@
             ease: [{ ease: ["linear", "in", "out", "in-out", k] }],
             delay: [{ delay: X() }],
             animate: [
-              { animate: ["none", "spin", "BEYONDg", "pulse", "bounce", k] },
+              { animate: ["none", "spin", "ALTARRAg", "pulse", "bounce", k] },
             ],
             transform: [{ transform: ["", "gpu", "none"] }],
             scale: [{ scale: [O] }],

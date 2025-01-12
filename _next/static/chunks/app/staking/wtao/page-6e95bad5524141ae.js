@@ -343,7 +343,7 @@
             let e = await fetch(
               "https://api.dexscreener.com/latest/dex/pairs/ethereum/0xf763bb342eb3d23c02ccb86312422fe0c1c17e94"
             );
-            if (!e.ok) throw Error("Failed to fetch BEYONDprice");
+            if (!e.ok) throw Error("Failed to fetch ALTARRAPrice");
             return (await e.json()).pairs[0].priceUsd;
           },
           staleTime: 3e4,
@@ -351,7 +351,7 @@
           refetchOnWindowFocus: !1,
           retry: 3,
         });
-        if (!s) return t && console.error("Error fetching BEYONDprice:", t), e;
+        if (!s) return t && console.error("Error fetching ALTARRAPrice:", t), e;
       };
       var k = s(36612),
         W = s(60332),
@@ -419,7 +419,7 @@
                           className: "text-xs text-muted-foreground",
                           children: [
                             (0, l.jsx)(k.Z, { children: u / d }),
-                            " BEYOND",
+                            " ALTARRA",
                           ],
                         }),
                       ],
@@ -443,7 +443,7 @@
                                 className: "text-xs text-muted-foreground",
                                 children: [
                                   (0, l.jsx)(k.Z, { children: m }),
-                                  " BEYOND",
+                                  " ALTARRA",
                                 ],
                               }),
                             ],
@@ -468,7 +468,7 @@
                                     className: "text-xs text-muted-foreground",
                                     children: [
                                       (0, l.jsx)(k.Z, { children: v }),
-                                      " BEYOND",
+                                      " ALTARRA",
                                     ],
                                   }),
                                 ],
@@ -699,7 +699,7 @@
                                 void 0 !== e
                                   ? e
                                   : "0",
-                                " BEYOND",
+                                " ALTARRA",
                               ],
                             }),
                             (0, l.jsx)("div", {
@@ -752,7 +752,7 @@
                         void 0 !== t
                           ? t
                           : "0",
-                        " BEYOND",
+                        " ALTARRA",
                       ],
                     }),
                     (0, l.jsx)("div", {
@@ -847,7 +847,7 @@
                                             : 18
                                         ),
                                         " ",
-                                        "BEYOND",
+                                        "ALTARRA",
                                       ],
                                     }),
                                     (0, l.jsx)("div", {
@@ -939,7 +939,7 @@
                       : 18
                   )
                   ? "Stake"
-                  : "Approve BEYOND"
+                  : "Approve ALTARRA"
               );
             }
           }, [_, null == y ? void 0 : y.decimals]),
@@ -965,7 +965,7 @@
                   functionName: "approve",
                   args: [B.multiRewards, l],
                 }),
-                Y("Approve BEYOND"),
+                Y("Approve ALTARRA"),
                 z("Approving WTAO for deposit"))
               : (d({
                   address: B.multiRewards,
@@ -1005,7 +1005,7 @@
                     "Put your ",
                     (0, l.jsx)("span", {
                       className: "text-taolime",
-                      children: "BEYOND",
+                      children: "ALTARRA",
                     }),
                     " to work with our Optimized yield strategy. ",
                     (0, l.jsx)("br", {}),
@@ -1014,7 +1014,7 @@
                       className: "text-taolime",
                       children: " BitTensor Finney ",
                     }),
-                    " maximizing the yield for BEYOND",
+                    " maximizing the yield for ALTARRA",
                   ],
                 }),
               ],
@@ -1053,7 +1053,7 @@
                                       : 18
                                   )
                                   ? "Stake"
-                                  : "Approve BEYOND"
+                                  : "Approve ALTARRA"
                               );
                             },
                           }),
@@ -1103,7 +1103,7 @@
                                       ? r
                                       : "0"
                                   ),
-                                  " BEYOND",
+                                  " ALTARRA",
                                 ],
                               }),
                               (0, l.jsx)("div", {
@@ -1171,18 +1171,18 @@
                   (0, l.jsx)(r.default, {
                     href: "/staking/tao",
                     className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                    children: "Stake BEYOND",
+                    children: "Stake ALTARRA",
                   }),
                   (0, l.jsx)(r.default, {
                     href: "/staking/tbank",
                     className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                    children: "Stake BEYOND",
+                    children: "Stake ALTARRA",
                   }),
                   (0, l.jsx)(r.default, {
                     href: "/staking/wtao",
                     className:
                       "rounded-lg bg-white bg-opacity-[10%] px-2 py-[5px] text-[#BAF7E9] opacity-80",
-                    children: "Stake BEYOND",
+                    children: "Stake ALTARRA",
                   }),
                 ],
               }),
@@ -1223,13 +1223,13 @@
                                 href: "/staking/tao",
                                 className:
                                   "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                                children: "Stake BEYOND",
+                                children: "Stake ALTARRA",
                               }),
                               (0, l.jsx)(r.default, {
                                 href: "/staking/tbank",
                                 className:
                                   "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                                children: "Stake BEYOND",
+                                children: "Stake ALTARRA",
                               }),
                             ],
                           }),
@@ -1244,7 +1244,7 @@
                             (0, l.jsx)("p", {
                               className: "mt-4 text-lg",
                               children:
-                                "Please switch to Ethereum Mainnet to stake BEYOND",
+                                "Please switch to Ethereum Mainnet to stake ALTARRA",
                             }),
                           ],
                         }),
@@ -1578,7 +1578,7 @@
             let e = await fetch(
               "https://api.dexscreener.com/latest/dex/pairs/ethereum/0xf763bb342eb3d23c02ccb86312422fe0c1c17e94"
             );
-            if (!e.ok) throw Error("Failed to fetch BEYONDprice");
+            if (!e.ok) throw Error("Failed to fetch ALTARRAPrice");
             let t = await e.json();
             return console.log("data", t), t.pairs[0].priceUsd;
           },
@@ -1587,7 +1587,7 @@
           refetchOnWindowFocus: !1,
           retry: 3,
         });
-        if (!s) return t && console.error("Error fetching BEYONDprice:", t), e;
+        if (!s) return t && console.error("Error fetching ALTARRAPrice:", t), e;
       };
     },
     22169: function (e, t, s) {
@@ -1624,7 +1624,7 @@
     54490: function (e, t) {
       "use strict";
       t.Z = {
-        src: "/silver.png",
+        src: "/gold.png",
         height: 24,
         width: 24,
         blurWidth: 0,

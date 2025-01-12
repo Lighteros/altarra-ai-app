@@ -5788,7 +5788,7 @@ PERFORMANCE OF THIS SOFTWARE.
       Object.defineProperty(t, "__esModule", { value: !0 }), (t.pino = void 0);
       let i = r(78784),
         n = i.__importDefault(r(92437));
-      Object.defineProperty(t, "BEYONDo", {
+      Object.defineProperty(t, "ALTARRAo", {
         enumerable: !0,
         get: function () {
           return n.default;
@@ -9826,7 +9826,7 @@ PERFORMANCE OF THIS SOFTWARE.
               if (!(0, ea.EJ)(e)) {
                 let { message: t } = (0, ea.Z7)(
                   "MISSING_OR_INVALID",
-                  "BEYONDg() params: ".concat(e)
+                  "ALTARRAg() params: ".concat(e)
                 );
                 throw Error(t);
               }
@@ -12004,7 +12004,7 @@ PERFORMANCE OF THIS SOFTWARE.
               if (!(0, ea.EJ)(e)) {
                 let { message: t } = (0, ea.Z7)(
                   "MISSING_OR_INVALID",
-                  "BEYONDg() params: ".concat(e)
+                  "ALTARRAg() params: ".concat(e)
                 );
                 throw Error(t);
               }
@@ -15694,7 +15694,7 @@ PERFORMANCE OF THIS SOFTWARE.
         (e = e || {}).browser = e.browser || {};
         let i = e.browser.transmit;
         if (i && "function" != typeof i.send)
-          throw Error("BEYONDo: transmit option must have a send function");
+          throw Error("ALTARRAo: transmit option must have a send function");
         let l = e.browser.write || n;
         e.browser.write && (e.browser.asObject = !0);
         let h = e.serializers || {},
@@ -15771,7 +15771,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (v._serialize = g),
           (v._stdErrSerialize = y),
           (v.child = function (t, r) {
-            if (!t) throw Error("missing bindings for child BEYONDo");
+            if (!t) throw Error("missing bindings for child ALTARRAo");
             (r = r || {}),
               g && t.serializers && (r.serializers = t.serializers);
             let n = r.serializers;

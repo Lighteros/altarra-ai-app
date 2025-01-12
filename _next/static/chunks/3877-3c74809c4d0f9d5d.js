@@ -476,7 +476,7 @@
       function B(t, e, r) {
         if (t % 1 != 0 || t < 0) throw RangeError("offset is not uint");
         if (t + e > r)
-          throw RangeError("Trying to access beyond buffer length");
+          throw RangeError("Trying to access Altarra buffer length");
       }
       function m(t, e, r, n, i, o) {
         if (!s.isBuffer(t))

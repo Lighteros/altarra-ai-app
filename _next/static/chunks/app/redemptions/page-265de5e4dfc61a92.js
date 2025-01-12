@@ -206,10 +206,10 @@
                                                       children: (0, h.b)(W, 18),
                                                     }),
                                                     (0, t.jsx)("div", {
-                                                      children: " BEYOND",
+                                                      children: " ALTARRA",
                                                     }),
                                                     (0, t.jsx)(C.Z, {
-                                                      symbol: "BEYOND",
+                                                      symbol: "ALTARRA",
                                                     }),
                                                   ],
                                                 }),
@@ -312,7 +312,7 @@
                           children: q
                             ? (0, t.jsx)(t.Fragment, { children: "Redeem" })
                             : (0, t.jsx)(t.Fragment, {
-                                children: "Approve BEYOND",
+                                children: "Approve ALTARRA",
                               }),
                         }),
                       }),

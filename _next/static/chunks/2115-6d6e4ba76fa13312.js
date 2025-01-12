@@ -186,7 +186,7 @@
             let e = await fetch(
               "https://api.dexscreener.com/latest/dex/pairs/ethereum/0xf763bb342eb3d23c02ccb86312422fe0c1c17e94"
             );
-            if (!e.ok) throw Error("Failed to fetch BEYONDprice");
+            if (!e.ok) throw Error("Failed to fetch ALTARRAPrice");
             let t = await e.json();
             return console.log("data", t), t.pairs[0].priceUsd;
           },
@@ -195,7 +195,7 @@
           refetchOnWindowFocus: !1,
           retry: 3,
         });
-        if (!n) return t && console.error("Error fetching BEYONDprice:", t), e;
+        if (!n) return t && console.error("Error fetching ALTARRAPrice:", t), e;
       };
     },
     17532: function (e, t, n) {
@@ -211,12 +211,12 @@
           error: t,
           isLoading: n,
         } = (0, a.a)({
-          queryKey: ["BeyondPrice"],
+          queryKey: ["AltarraPrice"],
           queryFn: async () => {
             let e = await fetch(
               "https://api.dexscreener.com/latest/dex/pairs/ethereum/0x0f88a9D642FA9283338e1eC4496E7dC72714831a"
             );
-            if (!e.ok) throw Error("Failed to fetch BEYONDprice");
+            if (!e.ok) throw Error("Failed to fetch ALTARRAPrice");
             let t = await e.json();
             return console.log("data", t), t.pairs[0].priceUsd;
           },
@@ -225,7 +225,7 @@
           refetchOnWindowFocus: !1,
           retry: 3,
         });
-        if (!n) return t && console.error("Error fetching BEYONDprice:", t), e;
+        if (!n) return t && console.error("Error fetching ALTARRAPrice:", t), e;
       };
     },
     69908: function (e, t, n) {

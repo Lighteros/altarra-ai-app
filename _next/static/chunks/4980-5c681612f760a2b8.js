@@ -53,8 +53,8 @@
           chains: [y.R],
           projectId: o,
           metadata: {
-            name: "Beyond",
-            description: "Unleashing liquidity for the BEYONDecosystem",
+            name: "Altarra",
+            description: "Unleashing liquidity for the ALTARRAecosystem",
             url: "https://app.taobank.ai",
             icons: ["https://app.taobank.ai/logo.png"],
           },

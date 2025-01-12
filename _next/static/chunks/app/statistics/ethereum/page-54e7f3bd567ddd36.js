@@ -123,7 +123,7 @@
                                             maximumFractionDigits: 18,
                                           }),
                                           " ",
-                                          "BEYOND",
+                                          "ALTARRA",
                                         ],
                                       })
                                     : "",
@@ -131,7 +131,7 @@
                               }),
                             }),
                             (0, s.jsxs)(A.Z, {
-                              title: "Staked BEYOND",
+                              title: "Staked ALTARRA",
                               className: "text-[#BAF7E9]",
                               children: [
                                 (0, s.jsx)(j.Z, {
@@ -170,7 +170,7 @@
                               }),
                             }),
                             (0, s.jsx)(A.Z, {
-                              title: "Backing per BEYOND",
+                              title: "Backing per ALTARRA",
                               className: "text-[#BAF7E9]",
                               children: (0, s.jsx)(j.Z, {
                                 children: t.collateralBackingPerTusd,
@@ -251,7 +251,7 @@
                 }),
                 (0, s.jsx)("div", {
                   className: "hidden w-1/3 text-start md:flex md:w-1/5",
-                  children: "To BEYOND Stakers (WTAO)",
+                  children: "To ALTARRA Stakers (WTAO)",
                 }),
               ],
             }),

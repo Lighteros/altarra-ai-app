@@ -159,13 +159,13 @@
                       "Stake ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: "BEYOND",
+                        children: "ALTARRA",
                       }),
                       " to protect the protocol via automated liquidations and earn rewards in",
                       " ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: " BEYOND ",
+                        children: " ALTARRA ",
                       }),
                     ],
                   }),
@@ -180,11 +180,11 @@
                         children: [
                           (0, a.jsx)("div", {
                             children: (0, a.jsx)(g.Z, {
-                              symbol: "BEYOND",
+                              symbol: "ALTARRA",
                               invert: !0,
                             }),
                           }),
-                          (0, a.jsx)("div", { children: "Buy BEYOND" }),
+                          (0, a.jsx)("div", { children: "Buy ALTARRA" }),
                         ],
                       }),
                     }),
@@ -197,7 +197,7 @@
                       " ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: " BEYOND ",
+                        children: " ALTARRA ",
                       }),
                     ],
                   }),
@@ -216,13 +216,13 @@
                       "Stake ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: "BEYOND",
+                        children: "ALTARRA",
                       }),
                       " to protect the protocol via automated liquidations and earn rewards in",
                       " ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: " BEYOND ",
+                        children: " ALTARRA ",
                       }),
                     ],
                   }),
@@ -371,13 +371,13 @@
                       "Stake ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: "BEYOND",
+                        children: "ALTARRA",
                       }),
                       " to protect the protocol via automated liquidations and earn rewards in",
                       " ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: " BEYOND ",
+                        children: " ALTARRA ",
                       }),
                     ],
                   }),
@@ -547,17 +547,17 @@
                       href: "/staking/tao",
                       className:
                         "rounded-lg bg-white bg-opacity-[10%] px-2 py-[5px] text-[#BAF7E9] opacity-80",
-                      children: "Stake BEYOND",
+                      children: "Stake ALTARRA",
                     }),
                     (0, a.jsx)(r.default, {
                       href: "/staking/tbank",
                       className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                      children: "Stake BEYOND",
+                      children: "Stake ALTARRA",
                     }),
                     (0, a.jsx)(r.default, {
                       href: "/staking/wtao",
                       className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                      children: "Stake BEYOND",
+                      children: "Stake ALTARRA",
                     }),
                   ],
                 }),
@@ -612,7 +612,7 @@
                           "mt-4 flex flex-wrap items-center justify-between space-x-4 text-base text-[#BAF7E9]",
                         children: [
                           (0, a.jsx)("div", {
-                            children: "Total BEYOND Staked",
+                            children: "Total ALTARRA Staked",
                           }),
                           (0, a.jsxs)("div", {
                             className: "flex space-x-4",
@@ -627,7 +627,7 @@
                                 }),
                               }),
                               (0, a.jsx)("div", {
-                                children: (0, a.jsx)(g.Z, { symbol: "BEYOND" }),
+                                children: (0, a.jsx)(g.Z, { symbol: "ALTARRA" }),
                               }),
                             ],
                           }),
@@ -654,7 +654,7 @@
                                 }),
                               }),
                               (0, a.jsx)("div", {
-                                children: (0, a.jsx)(g.Z, { symbol: "BEYOND" }),
+                                children: (0, a.jsx)(g.Z, { symbol: "ALTARRA" }),
                               }),
                             ],
                           }),
@@ -675,7 +675,7 @@
                             children: [
                               (0, a.jsx)("div", {
                                 className: "text-muted-foreground",
-                                children: "Staked BEYOND:",
+                                children: "Staked ALTARRA:",
                               }),
                               (0, a.jsx)("div", {
                                 children: (0, a.jsx)(v.Z, {
@@ -683,7 +683,7 @@
                                 }),
                               }),
                               (0, a.jsx)("div", {
-                                children: (0, a.jsx)(g.Z, { symbol: "BEYOND" }),
+                                children: (0, a.jsx)(g.Z, { symbol: "ALTARRA" }),
                               }),
                             ],
                           }),
@@ -700,7 +700,7 @@
                                 }),
                               }),
                               (0, a.jsx)("div", {
-                                children: (0, a.jsx)(g.Z, { symbol: "BEYOND" }),
+                                children: (0, a.jsx)(g.Z, { symbol: "ALTARRA" }),
                               }),
                             ],
                           }),
@@ -726,7 +726,7 @@
                                   children: [
                                     (0, a.jsx)("div", {
                                       children: (0, a.jsx)(g.Z, {
-                                        symbol: "BEYOND",
+                                        symbol: "ALTARRA",
                                         invert: !0,
                                       }),
                                     }),
@@ -992,7 +992,7 @@
     54490: function (e, t) {
       "use strict";
       t.Z = {
-        src: "/silver.png",
+        src: "/gold.png",
         height: 24,
         width: 24,
         blurWidth: 0,
