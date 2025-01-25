@@ -437,7 +437,7 @@
             "DAI.e": r,
             "USDT.e": C,
             taoUSD: b,
-            PIN: m,
+            ALTA: m,
             metamask: o,
             wTAO: N,
             WTAO: N,

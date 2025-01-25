@@ -159,13 +159,13 @@
                       "Stake ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: "ALTARRA",
+                        children: "ALTA",
                       }),
                       " to protect the protocol via automated liquidations and earn rewards in",
                       " ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: " ALTARRA ",
+                        children: " ALTA ",
                       }),
                     ],
                   }),
@@ -180,11 +180,11 @@
                         children: [
                           (0, a.jsx)("div", {
                             children: (0, a.jsx)(g.Z, {
-                              symbol: "ALTARRA",
+                              symbol: "ALTA",
                               invert: !0,
                             }),
                           }),
-                          (0, a.jsx)("div", { children: "Buy ALTARRA" }),
+                          (0, a.jsx)("div", { children: "Buy ALTA" }),
                         ],
                       }),
                     }),
@@ -197,7 +197,7 @@
                       " ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: " ALTARRA ",
+                        children: " ALTA ",
                       }),
                     ],
                   }),
@@ -216,13 +216,13 @@
                       "Stake ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: "ALTARRA",
+                        children: "ALTA",
                       }),
                       " to protect the protocol via automated liquidations and earn rewards in",
                       " ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: " ALTARRA ",
+                        children: " ALTA ",
                       }),
                     ],
                   }),
@@ -371,13 +371,13 @@
                       "Stake ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: "ALTARRA",
+                        children: "ALTA",
                       }),
                       " to protect the protocol via automated liquidations and earn rewards in",
                       " ",
                       (0, a.jsx)("span", {
                         className: "text-taolime",
-                        children: " ALTARRA ",
+                        children: " ALTA ",
                       }),
                     ],
                   }),
@@ -547,17 +547,17 @@
                       href: "/staking/tao",
                       className:
                         "rounded-lg bg-white bg-opacity-[10%] px-2 py-[5px] text-[#BAF7E9] opacity-80",
-                      children: "Stake ALTARRA",
+                      children: "Stake ALTA",
                     }),
                     (0, a.jsx)(r.default, {
                       href: "/staking/tbank",
                       className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                      children: "Stake ALTARRA",
+                      children: "Stake ALTA",
                     }),
                     (0, a.jsx)(r.default, {
                       href: "/staking/wtao",
                       className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                      children: "Stake ALTARRA",
+                      children: "Stake ALTA",
                     }),
                   ],
                 }),
@@ -612,7 +612,7 @@
                           "mt-4 flex flex-wrap items-center justify-between space-x-4 text-base text-[#BAF7E9]",
                         children: [
                           (0, a.jsx)("div", {
-                            children: "Total ALTARRA Staked",
+                            children: "Total ALTA Staked",
                           }),
                           (0, a.jsxs)("div", {
                             className: "flex space-x-4",
@@ -627,7 +627,7 @@
                                 }),
                               }),
                               (0, a.jsx)("div", {
-                                children: (0, a.jsx)(g.Z, { symbol: "ALTARRA" }),
+                                children: (0, a.jsx)(g.Z, { symbol: "ALTA" }),
                               }),
                             ],
                           }),
@@ -639,7 +639,7 @@
                           "mt-4 flex flex-wrap items-center justify-between space-x-4 text-base text-[#BAF7E9]",
                         children: [
                           (0, a.jsx)("div", {
-                            children: "Total PIN Rewards",
+                            children: "Total ALTA Rewards",
                           }),
                           (0, a.jsxs)("div", {
                             className: "flex space-x-4",
@@ -654,7 +654,7 @@
                                 }),
                               }),
                               (0, a.jsx)("div", {
-                                children: (0, a.jsx)(g.Z, { symbol: "ALTARRA" }),
+                                children: (0, a.jsx)(g.Z, { symbol: "ALTA" }),
                               }),
                             ],
                           }),
@@ -675,7 +675,7 @@
                             children: [
                               (0, a.jsx)("div", {
                                 className: "text-muted-foreground",
-                                children: "Staked ALTARRA:",
+                                children: "Staked ALTA:",
                               }),
                               (0, a.jsx)("div", {
                                 children: (0, a.jsx)(v.Z, {
@@ -683,7 +683,7 @@
                                 }),
                               }),
                               (0, a.jsx)("div", {
-                                children: (0, a.jsx)(g.Z, { symbol: "ALTARRA" }),
+                                children: (0, a.jsx)(g.Z, { symbol: "ALTA" }),
                               }),
                             ],
                           }),
@@ -700,7 +700,7 @@
                                 }),
                               }),
                               (0, a.jsx)("div", {
-                                children: (0, a.jsx)(g.Z, { symbol: "ALTARRA" }),
+                                children: (0, a.jsx)(g.Z, { symbol: "ALTA" }),
                               }),
                             ],
                           }),
@@ -726,7 +726,7 @@
                                   children: [
                                     (0, a.jsx)("div", {
                                       children: (0, a.jsx)(g.Z, {
-                                        symbol: "ALTARRA",
+                                        symbol: "ALTA",
                                         invert: !0,
                                       }),
                                     }),

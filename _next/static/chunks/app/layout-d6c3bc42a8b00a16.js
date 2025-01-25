@@ -275,7 +275,7 @@
         { title: "Staking", href: "/staking/wtao", icon: (0, n.jsx)(P.Z, {}) },
         {
           title: "Docs",
-          href: "https://alexeys-organization-9.gitbook.io/altarra-ai",
+          href: "https://doc.altarranetwork.cc",
           target: "_blank",
           icon: (0, n.jsx)(R.Z, {}),
         },

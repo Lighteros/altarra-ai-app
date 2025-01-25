@@ -123,7 +123,7 @@
                                             maximumFractionDigits: 18,
                                           }),
                                           " ",
-                                          "ALTARRA",
+                                          "ALTA",
                                         ],
                                       })
                                     : "",
@@ -131,7 +131,7 @@
                               }),
                             }),
                             (0, s.jsxs)(A.Z, {
-                              title: "Staked ALTARRA",
+                              title: "Staked ALTA",
                               className: "text-[#BAF7E9]",
                               children: [
                                 (0, s.jsx)(j.Z, {
@@ -170,7 +170,7 @@
                               }),
                             }),
                             (0, s.jsx)(A.Z, {
-                              title: "Backing per ALTARRA",
+                              title: "Backing per ALTA",
                               className: "text-[#BAF7E9]",
                               children: (0, s.jsx)(j.Z, {
                                 children: t.collateralBackingPerTusd,
@@ -251,7 +251,7 @@
                 }),
                 (0, s.jsx)("div", {
                   className: "hidden w-1/3 text-start md:flex md:w-1/5",
-                  children: "To ALTARRA Stakers (WTAO)",
+                  children: "To ALTA Stakers (WTAO)",
                 }),
               ],
             }),

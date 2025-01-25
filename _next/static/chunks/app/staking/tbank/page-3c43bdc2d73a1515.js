@@ -168,7 +168,7 @@
             writeContract: j,
             isPending: y,
           } = (0, u.useWriteContract)(),
-          N = (0, f.Z)("ALTARRA"),
+          N = (0, f.Z)("ALTA"),
           { stake: R } = g(),
           [D, U] = (0, a.useState)("Confirm"),
           [q, W] = (0, a.useState)(!1),
@@ -230,12 +230,12 @@
                       "Stake ",
                       (0, n.jsx)("span", {
                         className: "text-taolime",
-                        children: "ALTARRA",
+                        children: "ALTA",
                       }),
                       " and start collecting",
                       (0, n.jsx)("span", {
                         className: "text-taolime",
-                        children: " ALTARRA ",
+                        children: " ALTA ",
                       }),
                       " rewards, accrued from the protocol fees and distributed to the stakers.",
                     ],
@@ -292,7 +292,7 @@
                                     ((x.current.value = ""), L(!0)));
                             },
                             children: [
-                              (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
+                              (0, n.jsx)(E.Z, { symbol: "ALTA" }),
                               (0, n.jsxs)("div", {
                                 className:
                                   "flex flex-row items-center gap-1 text-base text-[#BAF7E9]",
@@ -361,7 +361,7 @@
                                     ((l.current.value = ""), W(!0)));
                             },
                             children: [
-                              (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
+                              (0, n.jsx)(E.Z, { symbol: "ALTA" }),
                               (0, n.jsxs)("div", {
                                 className:
                                   "flex flex-row items-center gap-1 text-base text-[#BAF7E9]",
@@ -389,7 +389,7 @@
                       children: [
                         (0, n.jsx)(A.Z, {
                           icon: (0, n.jsx)(E.Z, {
-                            symbol: "ALTARRA",
+                            symbol: "ALTA",
                             invert: !0,
                           }),
                           isLoading: !0 === y,
@@ -504,18 +504,18 @@
                   (0, n.jsx)(l.default, {
                     href: "/staking/tao",
                     className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                    children: "Stake ALTARRA",
+                    children: "Stake ALTA",
                   }),
                   (0, n.jsx)(l.default, {
                     href: "/staking/tbank",
                     className:
                       "rounded-lg bg-white bg-opacity-[10%] px-2 py-[5px] text-[#BAF7E9] opacity-80",
-                    children: "Stake ALTARRA",
+                    children: "Stake ALTA",
                   }),
                   (0, n.jsx)(l.default, {
                     href: "/staking/wtao",
                     className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                    children: "Stake ALTARRA",
+                    children: "Stake ALTA",
                   }),
                 ],
               }),
@@ -572,7 +572,7 @@
                       className:
                         "flex flex-wrap items-center justify-between space-x-4 pt-4 text-base",
                       children: [
-                        (0, n.jsx)("div", { children: "Total ALTARRA Staked" }),
+                        (0, n.jsx)("div", { children: "Total ALTA Staked" }),
                         (0, n.jsxs)("div", {
                           className: "flex space-x-4",
                           children: [
@@ -590,7 +590,7 @@
                               ],
                             }),
                             (0, n.jsx)("div", {
-                              children: (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
+                              children: (0, n.jsx)(E.Z, { symbol: "ALTA" }),
                             }),
                           ],
                         }),
@@ -606,7 +606,7 @@
                             children: [
                               1 === F
                                 ? (0, n.jsx)("div", {
-                                    children: "ALTARRA Rewards Paid",
+                                    children: "ALTA Rewards Paid",
                                   })
                                 : (0, n.jsx)("div", {
                                     children: "taoUSD Rewards Paid",
@@ -644,7 +644,7 @@
                                       }),
                                   (0, n.jsx)("div", {
                                     children: (0, n.jsx)(E.Z, {
-                                      symbol: "ALTARRA",
+                                      symbol: "ALTA",
                                     }),
                                   }),
                                 ],
@@ -668,7 +668,7 @@
                           children: [
                             (0, n.jsx)("div", {
                               className: "text-muted-foreground",
-                              children: "Staked ALTARRA:",
+                              children: "Staked ALTA:",
                             }),
                             (0, n.jsx)("div", {
                               children: (0, n.jsx)(w.Z, {
@@ -676,7 +676,7 @@
                               }),
                             }),
                             (0, n.jsx)("div", {
-                              children: (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
+                              children: (0, n.jsx)(E.Z, { symbol: "ALTA" }),
                             }),
                           ],
                         }),
@@ -686,7 +686,7 @@
                             (0, n.jsxs)("div", {
                               className: "text-muted-foreground",
                               children: [
-                                1 === F ? "ALTARRA" : "ALTARRA",
+                                1 === F ? "ALTA" : "ALTA",
                                 " Rewards:",
                                 " ",
                               ],
@@ -707,7 +707,7 @@
                                       height: 25,
                                       className: "invert",
                                     })
-                                  : (0, n.jsx)(E.Z, { symbol: "ALTARRA" }),
+                                  : (0, n.jsx)(E.Z, { symbol: "ALTA" }),
                             }),
                           ],
                         }),
@@ -753,7 +753,7 @@
                                               height: 20,
                                             })
                                           : (0, n.jsx)(E.Z, {
-                                              symbol: "ALTARRA",
+                                              symbol: "ALTA",
                                               invert: !0,
                                             }),
                                     }),

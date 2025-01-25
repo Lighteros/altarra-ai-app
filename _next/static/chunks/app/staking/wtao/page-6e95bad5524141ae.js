@@ -419,7 +419,7 @@
                           className: "text-xs text-muted-foreground",
                           children: [
                             (0, l.jsx)(k.Z, { children: u / d }),
-                            " ALTARRA",
+                            " ALTA",
                           ],
                         }),
                       ],
@@ -443,7 +443,7 @@
                                 className: "text-xs text-muted-foreground",
                                 children: [
                                   (0, l.jsx)(k.Z, { children: m }),
-                                  " ALTARRA",
+                                  " ALTA",
                                 ],
                               }),
                             ],
@@ -468,7 +468,7 @@
                                     className: "text-xs text-muted-foreground",
                                     children: [
                                       (0, l.jsx)(k.Z, { children: v }),
-                                      " ALTARRA",
+                                      " ALTA",
                                     ],
                                   }),
                                 ],
@@ -699,7 +699,7 @@
                                 void 0 !== e
                                   ? e
                                   : "0",
-                                " ALTARRA",
+                                " ALTA",
                               ],
                             }),
                             (0, l.jsx)("div", {
@@ -752,7 +752,7 @@
                         void 0 !== t
                           ? t
                           : "0",
-                        " ALTARRA",
+                        " ALTA",
                       ],
                     }),
                     (0, l.jsx)("div", {
@@ -847,7 +847,7 @@
                                             : 18
                                         ),
                                         " ",
-                                        "ALTARRA",
+                                        "ALTA",
                                       ],
                                     }),
                                     (0, l.jsx)("div", {
@@ -939,7 +939,7 @@
                       : 18
                   )
                   ? "Stake"
-                  : "Approve ALTARRA"
+                  : "Approve ALTA"
               );
             }
           }, [_, null == y ? void 0 : y.decimals]),
@@ -965,7 +965,7 @@
                   functionName: "approve",
                   args: [B.multiRewards, l],
                 }),
-                Y("Approve ALTARRA"),
+                Y("Approve ALTA"),
                 z("Approving WTAO for deposit"))
               : (d({
                   address: B.multiRewards,
@@ -1005,16 +1005,16 @@
                     "Put your ",
                     (0, l.jsx)("span", {
                       className: "text-taolime",
-                      children: "ALTARRA",
+                      children: "ALTA",
                     }),
                     " to work with our Optimized yield strategy. ",
                     (0, l.jsx)("br", {}),
-                    " PIN will be staked on",
+                    " ALTA will be staked on",
                     (0, l.jsx)("span", {
                       className: "text-taolime",
                       children: " BitTensor Finney ",
                     }),
-                    " maximizing the yield for ALTARRA",
+                    " maximizing the yield for ALTA",
                   ],
                 }),
               ],
@@ -1053,7 +1053,7 @@
                                       : 18
                                   )
                                   ? "Stake"
-                                  : "Approve ALTARRA"
+                                  : "Approve ALTA"
                               );
                             },
                           }),
@@ -1103,7 +1103,7 @@
                                       ? r
                                       : "0"
                                   ),
-                                  " ALTARRA",
+                                  " ALTA",
                                 ],
                               }),
                               (0, l.jsx)("div", {
@@ -1171,18 +1171,18 @@
                   (0, l.jsx)(r.default, {
                     href: "/staking/tao",
                     className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                    children: "Stake ALTARRA",
+                    children: "Stake ALTA",
                   }),
                   (0, l.jsx)(r.default, {
                     href: "/staking/tbank",
                     className: "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                    children: "Stake ALTARRA",
+                    children: "Stake ALTA",
                   }),
                   (0, l.jsx)(r.default, {
                     href: "/staking/wtao",
                     className:
                       "rounded-lg bg-white bg-opacity-[10%] px-2 py-[5px] text-[#BAF7E9] opacity-80",
-                    children: "Stake ALTARRA",
+                    children: "Stake ALTA",
                   }),
                 ],
               }),
@@ -1223,13 +1223,13 @@
                                 href: "/staking/tao",
                                 className:
                                   "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                                children: "Stake ALTARRA",
+                                children: "Stake ALTA",
                               }),
                               (0, l.jsx)(r.default, {
                                 href: "/staking/tbank",
                                 className:
                                   "rounded-lg p-2 text-[#BAF7E9] opacity-80",
-                                children: "Stake ALTARRA",
+                                children: "Stake ALTA",
                               }),
                             ],
                           }),
@@ -1244,7 +1244,7 @@
                             (0, l.jsx)("p", {
                               className: "mt-4 text-lg",
                               children:
-                                "Please switch to Ethereum Mainnet to stake ALTARRA",
+                                "Please switch to Ethereum Mainnet to stake ALTA",
                             }),
                           ],
                         }),

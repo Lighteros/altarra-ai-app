@@ -656,7 +656,7 @@
                 className: "w-full",
                 title: "Borrow / Repay",
                 description:
-                  "Stake $ALTA to protect the protocol via automated liquidations and earn rewards in ALTARRA",
+                  "Stake $ALTA to protect the protocol via automated liquidations and earn rewards in ALTA",
                 children: (0, r.jsx)(V, { vault: t }),
               }),
             ],

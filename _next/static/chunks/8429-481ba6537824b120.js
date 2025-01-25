@@ -237,7 +237,7 @@
                                 className:
                                   "flex items-center space-x-2 text-sm font-semibold",
                                 children: (0, n.jsx)("div", {
-                                  children: "Stake ALTARRA",
+                                  children: "Stake ALTA",
                                 }),
                               }),
                             }),
@@ -275,7 +275,7 @@
                                   "Bridge your",
                                   (0, n.jsx)("span", {
                                     className: "text-taolime",
-                                    children: " ALTARRA ",
+                                    children: " ALTA ",
                                   }),
                                   "between ",
                                   (0, n.jsx)("span", {
@@ -307,7 +307,7 @@
                                       children: (0, n.jsx)(c.Z, {}),
                                     }),
                                     (0, n.jsx)("div", {
-                                      children: "Bridge ALTARRA",
+                                      children: "Bridge ALTA",
                                     }),
                                   ],
                                 }),
@@ -345,7 +345,7 @@
                                   " ",
                                   (0, n.jsx)("span", {
                                     className: "text-taolime",
-                                    children: "ALTARRA",
+                                    children: "ALTA",
                                   }),
                                   "?",
                                 ],
@@ -357,7 +357,7 @@
                                   " ",
                                   (0, n.jsx)("span", {
                                     className: "text-taolime",
-                                    children: "ALTARRA",
+                                    children: "ALTA",
                                   }),
                                   "? - We got you covered",
                                 ],
@@ -378,12 +378,12 @@
                                   children: [
                                     (0, n.jsx)("div", {
                                       children: (0, n.jsx)(F.Z, {
-                                        symbol: "ALTARRA",
+                                        symbol: "ALTA",
                                         invert: !0,
                                       }),
                                     }),
                                     (0, n.jsx)("div", {
-                                      children: "Buy ALTARRA",
+                                      children: "Buy ALTA",
                                     }),
                                   ],
                                 }),
@@ -671,7 +671,7 @@
                                                             }
                                                           ),
                                                           " ",
-                                                          "ALTARRA",
+                                                          "ALTA",
                                                         ],
                                                       })
                                                     : "",
@@ -767,7 +767,7 @@
                                                           "text-sm opacity-70",
                                                         children: [
                                                           a.totalWTAORewards,
-                                                          " ALTARRA",
+                                                          " ALTA",
                                                         ],
                                                       })
                                                     : "",
@@ -1253,8 +1253,8 @@
             "WETH.e": r,
             "DAI.e": i,
             "USDT.e": A,
-            PIN: f,
-            PIN: h,
+            ALTA: f,
+            ALTA: h,
             metamask: c,
             wTAO: j,
             WTAO: j,

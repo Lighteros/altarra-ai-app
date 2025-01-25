@@ -179,7 +179,7 @@
           { collaterals: j, isLoading: y } = (0, g.Z)(),
           [N, C] = r.useState(""),
           [k, H] = r.useState(!0),
-          Y = (0, p.Z)("ALTARRA"),
+          Y = (0, p.Z)("ALTA"),
           _ = (0, p.Z)("MintableToken"),
           { address: I } = (0, x.useAccount)(),
           [L, O] = r.useState("");
@@ -324,7 +324,7 @@
                                 }),
                                 (0, s.jsx)("div", {
                                   className: "font-semibold",
-                                  children: "Buy ALTARRA",
+                                  children: "Buy ALTA",
                                 }),
                               ],
                             }),
@@ -362,7 +362,7 @@
                               className: "flex items-center space-x-1",
                               children: [
                                 (0, s.jsx)(F.Z, { symbol: "metamask" }),
-                                (0, s.jsx)("div", { children: "Add ALTARRA" }),
+                                (0, s.jsx)("div", { children: "Add ALTA" }),
                               ],
                             }),
                           }),
@@ -387,7 +387,7 @@
                               className: "flex items-center space-x-1",
                               children: [
                                 (0, s.jsx)(F.Z, { symbol: "metamask" }),
-                                (0, s.jsx)("div", { children: "Add ALTARRA" }),
+                                (0, s.jsx)("div", { children: "Add ALTA" }),
                               ],
                             }),
                           }),
@@ -1598,7 +1598,7 @@
             "DAI.e": i,
             "USDT.e": j,
             taoUSD: g,
-            PIN: p,
+            ALTA: p,
             metamask: o,
             wTAO: y,
             WTAO: y,
