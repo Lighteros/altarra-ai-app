@@ -298,7 +298,7 @@
                               "flex flex-col items-center gap-2 font-semibold md:flex-row md:items-start md:items-center md:gap-0 md:space-x-2",
                             children: [
                               (0, n.jsx)(S.Z, {
-                                link: "https://etherscan.io/token/0x00000000000000000000000000000000000000",
+                                link: "https://etherscan.io/token/0x92cb117786642BC77dB875Ed4f710007dE35F6dA",
                                 className: "w-[10.5rem] px-4 md:w-auto",
                                 children: (0, n.jsxs)("div", {
                                   className: "flex items-center space-x-2",
@@ -371,7 +371,7 @@
                             children: [
                               (0, n.jsx)(S.Z, {
                                 target: "_blank",
-                                link: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
+                                link: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x92cb117786642BC77dB875Ed4f710007dE35F6dA",
                                 className: "px-4",
                                 children: (0, n.jsxs)("div", {
                                   className: "flex items-center space-x-2",
